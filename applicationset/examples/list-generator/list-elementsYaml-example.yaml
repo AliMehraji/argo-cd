@@ -6,11 +6,13 @@ key:
       releaseName: component1
       repoUrl: "https://stefanprodan.github.io/podinfo"
       namespace: component1
-      clustername: in-cluster
+      clusterName: in-cluster
+      environment: pre-staging
     - name: component2
       chart: podinfo
       version: "6.3.3"
       releaseName: component2
       repoUrl: "ghcr.io/stefanprodan/charts"
       namespace: component2
-      clustername: centos-cluster
+      clusterName: centos-cluster
+      environment: staging
